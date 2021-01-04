@@ -1,0 +1,22 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #555555;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+img {
+    width: 100%;
+}
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
