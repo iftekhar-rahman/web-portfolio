@@ -1,7 +1,10 @@
+/* Reset code */
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #555555;
+    margin: 0;
+    line-height: 1.7;
 }
 h1,
 h2,
@@ -11,6 +14,14 @@ h5,
 h6 {
     color: #333;
 }
+h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+h2 {
+    font-size: 40px;
+    line-height: 1;
+}
 img {
     width: 100%;
 }
@@ -19,4 +30,60 @@ img {
     margin-left: 5%;
     padding-left: 2%;
     float: left;
+}
+.orange-highlight {
+    color: #fea331;
+}
+/* .top-banner */
+.top-banner {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 200px;
+}
+.link-button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+
+/* dream-area */
+.dream-area {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* experience-area */
+.experience-area {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: #fff;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
